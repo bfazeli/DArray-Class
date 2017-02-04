@@ -37,14 +37,15 @@ public:
 	
 	// Declaration function emptyArray
 	// Your code here...
-	
+	void emptyArray();
+
 	// Declaration function more1than0
 	// Your code here...
-
+	bool more1than0();
 
 	// Declaration function post4
 	// Your code here...
-
+	void post4(DArray & otherArray);
 
 private:
     int *a;			
