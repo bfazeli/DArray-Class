@@ -1,6 +1,7 @@
 # DArray-Classv
 
 Implemented the following member functions of the DArray class: 
+
  Function emptyArray
   o The function empties the array of the calling object (be efficient!).
 
