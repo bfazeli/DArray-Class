@@ -25,7 +25,7 @@ void call_emptyArray(DArray& a1)
 	* 3) Uncomment the function call below to test your implementation.
 	*/
 
-	//a1.emptyArray();
+	a1.emptyArray();
 }
 
 void call_more1than0(DArray& a1, bool& outcome)
@@ -36,7 +36,7 @@ void call_more1than0(DArray& a1, bool& outcome)
 	* 3) Uncomment the function call below to test your implementation.
 	*/
 	
-	//outcome = a1.more1than0();
+	outcome = a1.more1than0();
 }
 
 void call_post4(DArray& a1, DArray& a2)
@@ -47,6 +47,6 @@ void call_post4(DArray& a1, DArray& a2)
 	* 3) Uncomment the function call below to test your implementation.
 	*/
 	
-	//a1.post4(a2);
+	a1.post4(a2);
 }
 

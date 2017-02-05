@@ -17,10 +17,10 @@ void DArray::emptyArray()
 bool DArray::more1than0()
 {
 	int countOnes = 0, countZeroes = 0;
-	for (size_t i = 0; i < numOfElements; ++i)
+	for (int i = 0; i < numOfElements; ++i)
 	{
-		if (a[i] == 0) ++countOnes;
-		if (a[i] == 1) ++countZeroes;
+		if (a[i] == 0) ++countZeroes;
+		if (a[i] == 1) ++countOnes;
 	}
 
 	return countOnes > countZeroes;
@@ -29,3 +29,23 @@ bool DArray::more1than0()
 
 // Definition function post4
 // Your code here...
+void DArray::post4(DArray &otherArray)
+{
+	int last4 = -1;
+	for (int i = 0; i < numOfElements; ++i)
+	{
+		if (a[i] == 4)
+		{
+			last4 = i;
+		}
+	}
+
+	if (last4 != -1)
+	{
+		otherArray.emptyArray();
+		for (int i = ++last4; i < numOfElements; ++i)
+		{
+			otherArray.addElement(a[i]);
+		}
+	}
+}
