@@ -41,11 +41,11 @@ public:
 
 	// Declaration function more1than0
 	// Your code here...
-	bool more1than0();
+	bool more1than0() const;
 
 	// Declaration function post4
 	// Your code here...
-	void post4(DArray & otherArray);
+	void post4(DArray & otherArray) const;
 
 private:
     int *a;			
